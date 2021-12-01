@@ -42,7 +42,7 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'Abouit Page',
+        title: 'About Page',
         name: 'Christian Malpass'
     });
 
