@@ -11,8 +11,8 @@ const forecast = (latitude, longitude, callback) => {
         }
         else {
             console.log(JSON.stringify(body));
-            let string =  " It is curently "  + body.current.temperature +' degrees out. But It feels like it is' +
-            body.current.feelslike +' degrees out!' + 'The weather looks like it is ' + body.current['weather-descriptions'][0] + ' today!';
+            let string =  " It is curently "  + body.current.temperature +' degrees out. But It feels like it is ' +
+            body.current.feelslike +' degrees out! ' + ' The weather looks like it is ' + body.current['weather_descriptions'][0] + ' today!';
             callback(undefined, string);
         }
        

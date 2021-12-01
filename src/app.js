@@ -51,7 +51,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         title: 'This is help message',
-        message: 'lorem ipsum sadkjfksdajf sdfkjd \n dkfjasdjfsadjsdjlksdjfklsd \n kjsdfsdjfskdlok',
+        message: 'Put in a adress or zip code and get back the weather, And with a wave of your finger, a input and a click! One search frome here will get your weather quick!',
         name: 'Christian Malpass'
     });
 
